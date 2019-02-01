@@ -1,0 +1,51 @@
+h1{
+    font-family: serif;
+    text-align: center;
+}
+
+.parent{
+    text-align: center;
+}
+.mom{
+    color: plum;
+    font-size: 20px;
+}
+
+.son{
+    color: darkseagreen;
+}
+
+.husband{
+    color: blue;
+    font-size: 20px;
+}
+
+.one{
+    margin:20px;
+    
+}
+.second{
+    margin:45px;
+}
+
+.three{
+    margin-left: 300px;
+    
+}
+.mom1{   
+    color: plum;
+    font-size: 30px;
+}
+
+.momm{
+    color: plum;
+}
+
+.four{
+   float: right;
+}
+
+.husbandd{
+    float: right; 
+     color: blue;
+}
