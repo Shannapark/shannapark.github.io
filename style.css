@@ -4,4 +4,6 @@ body{
 }
 h1{
     color: black;
-     font:25px didot,serif;
+     font:didot,serif;
+    font-size: 25px;
+    
