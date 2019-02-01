@@ -1,5 +1,5 @@
 h1{
-    font-family: serif;
+    font-family:big caslon, serif;
     text-align: center;
 }
 
@@ -9,23 +9,32 @@ h1{
 .mom{
     color: plum;
     font-size: 20px;
+    font-family:big caslon, serif;
 }
 
 .son{
     color: darkseagreen;
+        font-family:big caslon, serif;
 }
 
 .husband{
     color: blue;
     font-size: 20px;
+        font-family:big caslon, serif;
 }
 
+.soldier{
+    color: gainsboro;
+    font-family:big caslon, serif;
+    font-size: 17px;
+}
 .one{
     margin:20px;
     
 }
 .second{
     margin:45px;
+    
 }
 
 .three{
@@ -34,11 +43,13 @@ h1{
 }
 .mom1{   
     color: plum;
-    font-size: 30px;
+    font-size: 30px;  
+    font-family:big caslon, serif;
 }
 
 .momm{
     color: plum;
+      font-family:big caslon, serif;
 }
 
 .four{
@@ -48,4 +59,5 @@ h1{
 .husbandd{
     float: right; 
      color: blue;
+      font-family:big caslon, serif;
 }
