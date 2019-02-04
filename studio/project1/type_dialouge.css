@@ -8,56 +8,80 @@ h1{
 }
 .mom{
     color: plum;
-    font-size: 20px;
+    font-size: 40px;
+    font-family:big caslon, serif;
+}
+.momtwo{
+    color: plum;
+    font-size: 40px;
+    font-family:big caslon, serif;
+}
+.mother{
+    color: plum;
+    font-size: 35px;
     font-family:big caslon, serif;
 }
 
 .son{
     color: darkseagreen;
-        font-family:big caslon, serif;
+    font-family:big caslon, serif;
+    font-size: 20px;
 }
 
 .husband{
     color: blue;
+    font-size: 30px;
+    font-family:big caslon, serif;
+}
+.firsthusband{
+    color: blue;
     font-size: 20px;
-        font-family:big caslon, serif;
+    font-family:big caslon, serif;
 }
 
 .soldier{
     color: gainsboro;
     font-family:big caslon, serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 .one{
     margin:20px;
     
 }
 .second{
-    margin:45px;
-    
+    margin:40px;
+    margin-left: 60px;
 }
 
 .three{
-    margin-left: 300px;
+    margin-left: 350px;
     
 }
 .mom1{   
     color: plum;
-    font-size: 30px;  
+    font-size: 90px;  
     font-family:big caslon, serif;
 }
 
 .momm{
     color: plum;
-      font-family:big caslon, serif;
+    font-family:big caslon, serif;
+    font-size: 17px;
+}
+.husbandone{
+    color: blue;
+    font-size: 25px;
+    font-family:big caslon, serif;
 }
 
 .four{
-   float: right;
+    float: right;
+    margin-right: 30px;
 }
 
 .husbandd{
     float: right; 
-     color: blue;
-      font-family:big caslon, serif;
+    color: blue;
+    font-family:big caslon, serif;
+    font-size: 20px;
 }
