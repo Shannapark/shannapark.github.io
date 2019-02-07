@@ -1,10 +1,20 @@
 body{
-    background-color: white;
+    background-color: peachpuff;
     
 }
 h1{
+    color: white;
+    font-family:didot, serif;
+    font-size: 100px;
+    text-align: center;
+    
+    
+}
+body{
     color: black;
-     font:didot, serif;
-    font-size: 25px;
+    font-family:didot, serif;
+    text-align: center;
+    font-size: 30px;
+
     
 }
