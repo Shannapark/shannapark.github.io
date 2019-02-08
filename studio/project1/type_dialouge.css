@@ -5,6 +5,12 @@ h1{
     font-family:big caslon, serif;
     text-align: center;
 }
+.opacity{
+    opacity: 0.05;
+    font-size: 200px;
+    position: absolute;
+    font-family:big caslon, serif;
+}
 
 .parent{
     text-align: center;
@@ -13,6 +19,12 @@ h1{
     color: palevioletred;
     font-size: 40px;
     font-family:big caslon, serif;
+}
+.momshadow{
+    color: palevioletred;
+    font-size: 55px;
+    font-family:big caslon, serif;
+    text-shadow: 2px 2px red;
 }
 .momtwo{
     color: palevioletred;
@@ -76,7 +88,7 @@ h1{
 }
 .husbandone{
     color: blue;
-    font-size: 25px;
+    font-size: 30px;
     font-family:big caslon, serif;
 }
 

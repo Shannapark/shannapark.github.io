@@ -1,0 +1,19 @@
+h1{
+    font-family:big caslon, serif;
+    text-align: center;
+    font-size: 100px;
+
+}
+body{
+background: repeating-linear-gradient(
+  180deg,
+  #606dbc,
+  #606dbc 30px,
+  #465298 30px,
+  #465298 40px
+);
+}
+
+a{
+    color: white;
+}
