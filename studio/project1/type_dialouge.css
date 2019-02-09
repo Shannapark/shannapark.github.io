@@ -76,6 +76,7 @@ h1{
     color: palevioletred;
     font-size: 90px;  
     font-family:big caslon, serif;
+    text-shadow: 2px 2px red;s
 }
 .mom1:hover{
     font-size: 200px;
