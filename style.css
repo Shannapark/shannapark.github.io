@@ -1,5 +1,5 @@
 body{
-    background-color: peachpuff;
+    background-color: antiquewhite;
     
 }
 h1{
@@ -7,14 +7,23 @@ h1{
     font-family:didot, serif;
     font-size: 100px;
     text-align: center;
-    
-    
 }
-body{
+h1:hover{
+    color: lightblue;
+}
+.studio{
     color: black;
     font-family:didot, serif;
     text-align: center;
     font-size: 30px;
-
-    
+    float: left;
+    margin-left: 100px;
+}
+.lab{
+    color: black;
+    font-family:didot, serif;
+    text-align: center;
+    font-size: 30px;
+    float: right;
+    margin-right: 100px;
 }
