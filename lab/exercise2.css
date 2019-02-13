@@ -11,3 +11,8 @@ audio{
     position:absolute;
     margin: 400px;
 }
+.pic{
+    position:absolute;
+    float: left;
+    margin: 900px;
+}
