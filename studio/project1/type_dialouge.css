@@ -1,5 +1,5 @@
 body{ 
-    background-color: lightslategray;
+    background-color: lightgray;
 }
 h1{
     font-family:big caslon, serif;
@@ -22,9 +22,13 @@ h1{
 }
 .momshadow{
     color: palevioletred;
-    font-size: 55px;
+    font-size: 70px;
     font-family:big caslon, serif;
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px black;
+    
+}
+.momshadow:hover{
+    background-color: red;
 }
 .momtwo{
     color: palevioletred;
@@ -35,6 +39,8 @@ h1{
     color: palevioletred;
     font-size: 35px;
     font-family:big caslon, serif;
+    
+
 }
 
 .son{
@@ -69,14 +75,14 @@ h1{
 }
 
 .three{
-    margin-left: 350px;
+    margin-left: 205px;
     
 }
 .mom1{   
     color: palevioletred;
     font-size: 90px;  
     font-family:big caslon, serif;
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px black;
 }
 .mom1:hover{
     font-size: 200px;
@@ -89,10 +95,19 @@ h1{
 }
 .husbandone{
     color: blue;
-    font-size: 30px;
+    font-size: 45px;
     font-family:big caslon, serif;
-}
+    text-shadow: 2px 2px white;
+    margin-left: 50px;
 
+}
+.elsa{    
+    margin-left: 200px;
+    color: blue;
+    font-family:big caslon, serif;
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+}
 .four{
     float: right;
     margin-right: 30px;
