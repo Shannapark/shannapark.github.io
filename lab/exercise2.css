@@ -8,11 +8,18 @@ audio{
     float: right;
 }
 .image{
-    position:absolute;
-    margin: 400px;
+    position:fixed;
+    margin-left: 400px;
+    margin-top: 40px;
 }
 .pic{
     position:absolute;
     float: left;
     margin: 900px;
+}
+.gif{
+    position:absolute;
+    float: right;
+    margin: 400px;
+    top: 100%;
 }
