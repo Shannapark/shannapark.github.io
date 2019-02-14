@@ -1,0 +1,144 @@
+body{ 
+    background-color: lightgray;
+}
+h1{
+    font-family:inria, serif;
+    text-align: center;
+}
+.opacity{
+    opacity: 0.05;
+    font-size: 200px;
+    position: absolute;
+    font-family:inria, serif;
+    z-index: -1;
+}
+
+.parent{
+    text-align: center;
+}
+.mom{
+    color: palevioletred;
+    font-size: 40px;
+     font-family:inria, serif;
+    text-shadow: 2px 2px black;
+}
+.momshadow{
+    color: palevioletred;
+    font-size: 70px;
+    font-family:inria, serif;
+    text-shadow: 2px 2px black;
+    
+}
+.momshadow:hover{
+    background-color: red;
+}
+.momtwo{
+    color: palevioletred;
+    font-size: 40px;
+     font-family:inria, serif;
+    text-shadow: 2px 2px black;
+}
+.mother{
+    color: palevioletred;
+    font-size: 50px;
+    font-family:inria, serif;
+     text-shadow: 2px 2px white;
+}
+
+.son{
+    color: darkseagreen;
+    font-family:inria, serif;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.husband{
+    color: blue;
+    font-size: 30px;
+    font-family:inria, serif;
+    text-align: center;
+}
+.firsthusband{
+    color: blue;
+    font-size: 30px;
+    font-family:inria, serif;
+}
+
+.soldier{
+    color: whitesmoke;
+    font-family:inria, serif;
+    font-size: 18px;
+}
+.one{
+    margin:20px;
+    
+}
+.second{
+    margin:40px;
+    margin-left: 60px;
+}
+
+.three{
+    margin-left: 205px;
+    
+}
+.mom1{   
+    color: palevioletred;
+    font-size: 90px;  
+     font-family:inria, serif;
+    text-shadow: 2px 2px black;
+}
+.mom1:hover{
+    font-size: 200px;
+}
+
+.mom1:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotaste(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.momm{
+    color: palevioletred;
+     font-family:inria, serif;
+    font-size: 17px;
+}
+.husbandone{
+    color: blue;
+    font-size: 45px;
+    font-family:inria, serif;
+    text-shadow: 2px 2px white;
+    margin-left: 50px;
+
+}
+.elsa{    
+    margin-left: 200px;
+    color: blue;
+    font-family:inria, serif;
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+}
+.four{
+    float: right;
+    margin-right: 30px;
+}
+
+.husbandd{
+    float: right; 
+    color: blue;
+    font-family:inria, serif;
+    font-size: 20px;
+}
