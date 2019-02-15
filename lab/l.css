@@ -1,0 +1,40 @@
+
+#uppercase-a {
+  width:400px;
+  height:500px;
+  border: 1px solid black;
+}
+
+#uppercase-l {
+    width:400px;
+    height:500px;
+    border: 4px solid black;
+    width: 80px;
+	height: 400px;
+	background: white;
+	border-radius: 30px;
+	position: absolute;
+    top:20%;
+    left:5%;
+} 
+
+#uppercase-l1 {
+    width:400px;
+    height:500px;
+    border: 4px solid black;
+    width: 200px;
+	height: 80px;
+	background: white;
+	border-radius: 30px;
+	position: absolute;
+    top:69%;
+    left:10%;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    width:400px;
+}

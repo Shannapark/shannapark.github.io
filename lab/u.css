@@ -1,0 +1,50 @@
+#uppercase-a {
+  width:400px;
+  height:500px;
+  border: 1px solid black;
+}
+
+#uppercase-u {
+    width:400px;
+    height:500px;
+    border: 4px solid black;
+    width: 80px;
+	height: 400px;
+	background: white;
+	border-radius: 30px;
+	position: absolute;
+    top:20%;
+    left:5%;
+}
+#uppercase-u1 {
+    width:400px;
+    height:500px;
+    border: 4px solid black;
+    width: 150px;
+	height: 80px;
+	background: white;
+	border-radius: 30px;
+	position: absolute;
+    top:70%;
+    left:11%;
+ 
+}
+#uppercase-u2 {
+    width:400px;
+    height:500px;
+    border: 4px solid black;
+    width: 80px;
+	height: 400px;
+	background: white;
+	border-radius: 30px;
+	position: absolute;
+    top:20%;
+    left:25%;
+}
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    width:400px;
+}
