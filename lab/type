@@ -1,0 +1,28 @@
+h1{
+    font-family: didot, serif;
+}
+body{
+    background-color: antiquewhite;
+    font-family: didot, serif;
+
+}
+<html>
+<head>
+<title>Type</title>
+<link rel="stylesheet" href="type-collection.css">
+</head>
+    
+<body>
+<h1>Type Collection</h1>
+<a href="l.html">L</a> <br>
+<a href="n.html">N</a> <br>
+<a href="ampersands.html">&amp;</a> <br>
+<a href="u.html">U</a> <br>
+    
+    
+
+</body>   
+    
+    
+    
+</html>
