@@ -1,0 +1,28 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    padding-left: 20px;
+    color: red;
+    background-color:dimgray;
+}
+h1{
+    font-size: 85px;
+    text-align: center;
+    color: blue;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: blue;  
+    padding-left: 20px;
+}
+.description{
+    text-align: center;
+    font-size: 25px;
+}
+.direction{
+   position:relative;
+}
+p{
+    text-align: center;
+}
