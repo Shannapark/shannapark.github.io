@@ -3,12 +3,12 @@ body{
     font-size: 20px;
     padding-left: 20px;
     color: red;
-    background-color:dimgray;
+    background-color:lightslategray;
 }
 h1{
     font-size: 85px;
     text-align: center;
-    color: blue;
+    color: deepskyblue;
 }
 h2{
     font-size: 40px;
