@@ -1,28 +1,47 @@
 body{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 20px;
-    color: red;
-    background-color:lightslategray;
+    color: orangered;
+    background-color:darkgoldenrod;
 }
 h1{
-    font-size: 85px;
+    font-size: 90px;
     text-align: center;
-    color: deepskyblue;
+    color: orangered;
 }
 h2{
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
-    color: blue;  
+    color: orangered;  
     padding-left: 20px;
 }
 .description{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
 }
 .direction{
    position:relative;
+    
 }
 p{
     text-align: center;
+   
+    font-size: 30px;
+}
+.steps{
+    text-align: left;
+    display: inline-block;
+    margin: 80px;
+    margin-top: 30px;
+}
+
+.ing{
+    float: left;
+    margin-left: 30px;
+}
+a{
+    float: right;
+    margin-right: 30px;
 }
