@@ -1,7 +1,12 @@
-h1{
-    font-family: didot, serif;
-}
 body{
     background-color: antiquewhite;
     font-family: didot, serif;
+}
+h1{
+    margin-left: 20px;
+    font-size:45px;
+}
+a{
+    margin-left: 20px;
+    font-size: 20px;
 }
