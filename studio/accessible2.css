@@ -1,0 +1,77 @@
+body{
+    font-family: 'Questrial', sans-serif;
+    color:darkslategray;
+}
+h1{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 65px;
+
+
+}
+img{
+    float: right;
+    margin-left: 10px;
+}
+.text{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.prep{
+    border-style: solid; 
+    border-width: 2px;
+    width: 190px;
+    padding: 5px;
+    font-size:20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+}
+.cook{
+    border-style: solid; 
+    border-width: 2px;
+    width: 200px;
+    padding: 5px;
+    font-size:20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+
+}
+.ready{
+    border-style: solid; 
+    border-width: 2px;
+    width: 245px;
+    padding: 5px;
+    font-size:20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+
+}
+.one{
+    margin-left: 30px;
+    font-size: 25px;
+    color:darkslategray;
+}
+.two{
+    margin-left: 30px;
+    font-size: 25px;
+    color:darkslategray;
+}
+.three{
+    margin-left: 30px;
+    font-size: 25px;
+    color:darkslategray;
+}
+.four{
+    margin-left: 30px;
+    font-size: 25px;
+    color:darkslategray;
+}
