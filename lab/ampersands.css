@@ -1,8 +1,11 @@
-#uppercase-a {
+#uppercase-a{
   width:400px;
   height:500px;
-  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+margin-left: 90px;
 }
+
 #amp1{
     width:400px;
     height:500px;
@@ -15,20 +18,9 @@
     top:20%;
     left:13%;
     transform: rotate(155deg);
+    display: inline-block;
 }
-#amp2{
-    width:400px;
-    height:500px;
-    border: 4px solid black;
-    width: 55px;
-	height: 80px;
-	background: white;
-	border-radius: 30px;
-	position: absolute;
-    top:58%;
-    left:20%;
-    transform: rotate(60deg);
-}
+
 #amp3{
     width:400px;
     height:500px;
@@ -41,6 +33,7 @@
     top:15%;
     left:13%;
     transform: rotate(64deg);
+    display: inline-block;
 }
 #amp4{
     width:400px;
@@ -52,8 +45,9 @@
 	border-radius: 30px;
 	position: absolute;
     top:15%;
-    left:19%;
+    left:30%;
     transform: rotate(155deg);
+    display: inline-block;
 }
 #amp5{
     border: 4px solid black;
@@ -62,22 +56,24 @@
 	background: white;
 	border-radius: 30px;
 	position: absolute;
-    top:15%;
+    top:18%;
     left:13%;
     transform: rotate(65deg);
+    display: inline-block;
 }
 #amp6{
-    width:400px;
+    width:700px;
     height:500px;
     border: 4px solid black;
-    width: 50px;
-	height: 180px;
+    width: 60px;
+	height: 200px;
 	background: white;
 	border-radius: 30px;
 	position: absolute;
-    top:45%;
+    top:55%;
     left:15%;
     transform: rotate(64deg);
+    display: inline-block;
 }
 #amp7{
     width:400px;
@@ -88,10 +84,10 @@
 	background: white;
 	border-radius: 30px;
 	position: absolute;
-    top:50%;
-    left:7%;
+    top:60%;
+    right:90%;
     transform: rotate(155deg);
-}
+    display: inline-bloc
 pre code {
   background-color: #eee;
   border: 1px solid #999;
