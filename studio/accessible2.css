@@ -10,16 +10,10 @@ h1{
 
 }
 img{
-    float: right;
-    margin-left: 10px;
+margin-left: 25%;
 }
-.text{
-    position: fixed;
-    background-color: white;
-    opacity: 0.8;
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+.main{
+    margin-left: 25%;
 }
 .prep{
     border-style: solid; 
@@ -29,7 +23,10 @@ img{
     font-size:20px;
     margin-top: 5px;
     margin-left: 10px;
-    float: left;
+    text-align: center;
+    display: inline-block;
+
+    
 }
 .cook{
     border-style: solid; 
@@ -39,8 +36,8 @@ img{
     font-size:20px;
     margin-top: 5px;
     margin-left: 10px;
-    float: left;
-
+    display: inline-block;
+    text-align: center;
 }
 .ready{
     border-style: solid; 
@@ -50,33 +47,16 @@ img{
     font-size:20px;
     margin-top: 5px;
     margin-left: 10px;
-    float: left;
+    display: inline-block;
+    text-align: center;
 
 }
-.one{
-    margin-left: 30px;
-    font-size: 25px;
-    color:darkslategray;
-}
-.two{
-    margin-left: 30px;
-    font-size: 25px;
-    color:darkslategray;
-}
-.three{
-    margin-left: 30px;
-    font-size: 25px;
-    color:darkslategray;
-}
-.four{
-    margin-left: 30px;
-    font-size: 25px;
-    color:darkslategray;
-}
+
 #back{
     font-size: 20px;
+    
 }
-#final{
+#next{
+    float: right;
     font-size: 20px;
-    margin-left: 650px;
 }
