@@ -1,0 +1,199 @@
+<html lang="en-ca">
+	<head>
+		<meta charset="utf-8">
+		<title>Calender</title>
+<style>
+body{
+	background-color: #D9D6FE; 
+	margin: 0px;
+	font-family: serif, didot;
+	margin-left: 5px;
+}
+.title{
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.days{
+	margin: 0px;
+	display: flex;
+  	align-items: flex-end;
+  	width: 100%;
+  	height: 10%;
+  	align-content: space-around;
+}
+
+.days > div {
+	width: 14vw;  
+	height: 20px; 
+	
+}
+
+.container {
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-items: flex-end;
+  	width: 100%;
+  	align-content: space-around;
+  
+}
+.container > div {
+	width: 14vw;  
+	height: 100px; 
+	
+}
+
+.blank{
+width: 14vw; 
+  height: 100px; 
+ 
+}
+
+.line-big{
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+.line-small{
+	width: 100%;
+	height: 1px;
+	background-color: black;
+	display: none;
+}
+
+@media (max-width:600px)
+{
+	body{
+		margin: 0px;
+	}
+	.days{
+		display: none;
+	}
+
+	.container {
+	  	display: flex;
+	  	flex-direction: column;
+	  	flex-wrap: wrap;
+	}
+
+	.container > div {
+		width: 100%;
+		height: 100px; 
+		margin: auto; 
+	}
+
+	.blank{
+	  display: none;
+	}
+
+	.line-small{
+		width: 100%;
+		height: 1px;
+		background-color: black;
+		display: inline;
+	}
+}
+
+</style>
+	</head>
+
+<body>
+<div class="title">March 2019</div>
+<div class="days">
+	<div>Sunday</div>
+	<div>Monday</div>
+	<div>Tuesday</div>
+	<div>Wednesday</div>
+	<div>Thursday</div>
+	<div>Friday</div>
+	<div>Saturday</div>
+</div>
+<div class="line-big"></div>
+<div class="container">
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div>1</div>
+	<span class="line-small"></span>
+	<div>2</div>
+</div>
+<div class="line-big"></div>
+<div class="container">
+	<div>3</div> 
+	<span class="line-small"></span>
+	<div>4</div>
+	<span class="line-small"></span>
+	<div>5</div>
+	<span class="line-small"></span>
+	<div>6</div> 
+	<span class="line-small"></span> 
+	<div>7</div>
+	<span class="line-small"></span>
+	<div>8</div>
+	<span class="line-small"></span>
+	<div>9</div>
+</div>
+<div class="line-big"></div>
+<div class="container">
+	<div>10</div>
+	<span class="line-small"></span>
+	<div>11</div>
+	<span class="line-small"></span>
+	<div>12</div>
+	<span class="line-small"></span>
+	<div>13</div>
+	<span class="line-small"></span>
+	<div>14</div>
+	<span class="line-small"></span>
+	<div>15</div>
+	<span class="line-small"></span>
+	<div>16</div>
+</div>
+<div class="line-big"></div>
+<div class="container">
+	<div>17</div>
+	<span class="line-small"></span>
+	<div>18</div>
+	<span class="line-small"></span>
+	<div>19</div>
+	<span class="line-small"></span>
+	<div>20</div>
+	<span class="line-small"></span>
+	<div>21</div>
+	<span class="line-small"></span>
+	<div>22</div>
+	<span class="line-small"></span>
+	<div>23</div>
+</div>
+<div class="line-big"></div>
+<div class="container"> 
+	<div>24</div>
+	<span class="line-small"></span>
+	<div>25</div>
+	<span class="line-small"></span>
+	<div>26</div> 
+	<span class="line-small"></span> 
+	<div>27</div>
+	<span class="line-small"></span>
+	<div>28</div>
+	<span class="line-small"></span>
+	<div>29</div>
+	<span class="line-small"></span>
+	<div>30</div>
+</div>
+<div class="line-big"></div>
+<div class="container"> 
+	<div>31</div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+	<div class="blank"></div>
+</div>
+</body>
+
+</html>
