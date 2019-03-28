@@ -1,0 +1,29 @@
+
+.imageBox:hover .hoverImg {
+    display: block;
+}
+.imageBox {
+    position: relative;
+    float: left;
+    animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+.imageBox:hover{
+    float: right;
+}
+@-moz-keyframes spin { 100% {transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% {transform: rotate(360deg); } }
+@keyframes spin { 100% {transform: rotate(360deg); transform:rotate(360deg); } }
