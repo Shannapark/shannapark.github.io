@@ -5,9 +5,8 @@
 .imageBox {
     position: relative;
     float: left;
-    animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    animation:spin 4s linear;
+ 
 
 }
 
@@ -21,8 +20,7 @@
 .imageBox:hover .hoverImg {
   display: block;
 }
-.imageBox:hover{
-    float: right;
+
 }
 @-moz-keyframes spin { 100% {transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% {transform: rotate(360deg); } }
