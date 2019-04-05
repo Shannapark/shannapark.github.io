@@ -1,13 +1,7 @@
-.container {
+body{
     background-color: skyblue;
 	z-index: 1;
-	position: relative;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 100vh;
-	min-height: 35rem;
+
 }
 
 .bird {
@@ -35,5 +29,7 @@
 	100% {
 		background-position: -3600px 0;
 	}
-	
+}
+body:hover {
+    background-color: lightyellow;
 }
