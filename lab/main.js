@@ -45,8 +45,8 @@ if (currentHour == 12) {
 };
 
 
-console.log (myName.length);
-myName = myName.length - 1;
+console.log (name.length);
+Name = Name.length - 1;
 
 if (myName <= 9) {
   console.log("My name is relatively short.")
