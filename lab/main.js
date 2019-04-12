@@ -46,15 +46,30 @@ if (currentHour == 12) {
 
 
 console.log (name.length);
-Name = Name.length - 1;
+Name = Name.length - 2;
 
-if (myName <= 9) {
-  console.log("My name is relatively short.")
-} else if (myName >= 14) {
-  console.log("My name is relatively long.")
+
+if (name.length - 2 <= 9)  {
+  var msg = "My name is relatively short."
+} else if (name.length - 2 >= 14) {
+  var msg = "My name is relatively long."
 } else {
-  console.log("My name is neither short nor long.")
-};
+  var msg = "My name is neither short nor long."
+}
+
+
+
+var nyTemp = 53;
+var italyTemp = 59;
+
+var convert = function(num) {
+  return (num - 32) * (5/9);
+}
+
+console.log("The temperature in New York City is " + (convert(currentTemp)) + "°C at " + d)
+console.log("The temperature in Italy is " + (convert(italyTemp)) + "°C at " + d)
+
+
 
 
 
