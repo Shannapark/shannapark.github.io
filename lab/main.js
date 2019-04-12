@@ -72,4 +72,16 @@ console.log("The temperature in Italy is " + (convert(italyTemp)) + "°C at " + 
 
 
 
+for(var i = 1; i <= 40; i++) {
+
+      for(var j = 1; j<= i; j++) {
+
+        document.write("Shanna park");  
+
+      }
+
+      document.write("<br/>");
+}
+
+
 
