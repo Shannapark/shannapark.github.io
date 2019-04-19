@@ -1,0 +1,43 @@
+{
+  "coord":{
+  "lon":-84.39,
+  "lat":33.75
+},
+"weather":[
+  {
+    "id":803,
+    "main":"Clouds",
+    "description":"broken clouds",
+    "icon":"04d"
+  }
+],
+  "base":"stations",
+  "main":{
+  "temp":24.84,
+  "pressure":1021,
+  "humidity":38,
+  "temp_min":22.78,
+  "temp_max":26.67
+},
+  "visibility":16093,
+  "wind":{
+    "speed":2.6
+  },
+    "clouds":{
+    "all":75
+  },
+  "dt":1555523924,
+  "sys":{
+    "type":1,
+    "id":3335,
+    "message":0.0088,
+    "country":"US",
+    "sunrise":1555499070,
+    "sunset":1555546163
+  },
+"id":4180439,
+"name":"Atlanta",
+"cod":200
+}
+
+{"coord":{"lon":-74.01,"lat":40.71},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":10.28,"pressure":1023,"humidity":50,"temp_min":8.89,"temp_max":11.67},"visibility":16093,"wind":{"speed":2.86,"deg":155.337},"clouds":{"all":90},"dt":1555558362,"sys":{"type":1,"id":4686,"message":0.0096,"country":"US","sunrise":1555496063,"sunset":1555544188},"id":5128581,"name":"New York","cod":200}
