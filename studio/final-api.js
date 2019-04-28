@@ -6,7 +6,7 @@ var humidity1;
 $(document).ready(function(){
 
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?id=4180439&units=metric&APPID=f672f030db4cd256883d4ea0f4080826',
+        url: 'https://api.openweathermap.org/data/2.5/weather?id=4180439&units=metric&APPID=f672f030db4cd256883d4ea0f4080826',
         dataType: 'jsonp',
         success: function(results){
         
@@ -31,7 +31,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?id=5128581&units=metric&APPID=f672f030db4cd256883d4ea0f4080826',
+        url: 'https://api.openweathermap.org/data/2.5/weather?id=5128581&units=metric&APPID=f672f030db4cd256883d4ea0f4080826',
         dataType: 'jsonp',
         success: function(results){
       
