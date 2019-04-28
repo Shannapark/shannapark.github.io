@@ -3,12 +3,12 @@ var humidity1;
 
 
 //Atlanta
-$(document).ready(function(){
+$(document).ready(function () {
 
     $.ajax({
         url: 'https://api.openweathermap.org/data/2.5/weather?id=4180439&units=metric&APPID=f672f030db4cd256883d4ea0f4080826',
         dataType: 'jsonp',
-        success: function(results){
+        success: function(results) {
         
             humidity1 = results.main.humidity;
 
@@ -18,8 +18,8 @@ $(document).ready(function(){
         }
     });
 
-    function myWeatherInterpretation(){
-        $('.atl').append('</br> '+humidity1 );
+    function myWeatherInterpretation() {
+        $('.atl').append('</br> '  + humidity1 );
 
     }
 });
@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 
 //New York
-$(document).ready(function(){
+$(document).ready(function() {
 
     $.ajax({
         url: 'https://api.openweathermap.org/data/2.5/weather?id=5128581&units=metric&APPID=f672f030db4cd256883d4ea0f4080826',
@@ -43,7 +43,7 @@ $(document).ready(function(){
         }
     });
 
-    function myWeatherInterpretation(){
+    function myWeatherInterpretation() {
         $('.newyork').append('</br> '+ humidity2 );
 
     }
