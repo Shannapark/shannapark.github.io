@@ -1,34 +1,57 @@
-body{
-    background-color: cornsilk;
-    font-family: monospace;
+body {
+    background: cornsilk;
 }
 
-.nyc {
-    height: 300px;
-    width: 300px;
-    background-color: skyblue;
-    border-radius: 50%;
-    display: inline-block;
-    animation:infinite;
-    animation-name: color;
-    animation-duration: 5s;
-    filter: saturate(90%);
-}
+
 .atl {
-    height: 300px;
-    width: 300px;
-    background-color: palevioletred;
-    border-radius: 50%;
-    display: inline-block;
-    animation:infinite;
-    animation-name: color;
-    animation-duration: 5s;
-    filter: saturate(100%);
+    display: none;
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
 }
 
-color {
-  0%   {top: 0px;}
-  25%  {top: 200px;}
-  75%  {top: 50px;}
-  100% {top: 100px;}
+
+
+.newyork {
+    display: none;
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
 }
+
+
+
+#circle1 {
+    height: 500px;
+    width: 500px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: inline-block;
+
+
+}
+
+
+
+#circle2 {
+    background: palegreen; 
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: inline-block;
+    float:right;
+}
+
+
+
+#circle1:hover .atl{
+    display: block;
+}
+
+
+
+#circle2:hover .newyork{
+    display: block;
+}
+
+
