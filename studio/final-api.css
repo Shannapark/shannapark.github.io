@@ -1,22 +1,42 @@
 body {
-    background: cornsilk;
+    background-color: darkslategrey;
+    font-family: sans-serif;
+    animation: change-color 5s steps(15, start) infinite;
+    animation-direction: alternate;
+    animation animation-name: shape;
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    
+}
 
 .atl {
     display: none;
-    font-family: monospace;
-    font-size: 18px;
     color: black;
+    text-align: center;
+    padding: 140px;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 
 
 .newyork {
     display: none;
-    font-family: monospace;
-    font-size: 18px;
     color: black;
+    text-align: center;
+    padding: 140px;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 
@@ -27,9 +47,12 @@ body {
     background-color: darkgray;
     border-radius: 50%;
     display: inline-block;
-
-
+    margin:50px;
+    animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
 }
+
+
+
 
 
 
@@ -40,9 +63,20 @@ body {
     border-radius: 50%;
     display: inline-block;
     float:right;
+    margin:50px;
+    animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
 }
 
-
+@keyframes scaleIn {
+  from {
+    transform: scale(.5, .5);
+    opacity: .5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
 
 #circle1:hover .atl{
     display: block;
