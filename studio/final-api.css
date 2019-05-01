@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategrey;
+    background-image: url("Blue-Gradient-Background.jpg");
     font-family: sans-serif;
     animation: change-color 5s steps(15, start) infinite;
     animation-direction: alternate;
@@ -14,7 +14,13 @@ h1{
     font-size: 40px;
     
 }
+.description{
+    position: absolute;
+	top: 850px;
+	width: 600px;
+	left: 5vw;
 
+}
 .atl {
     display: none;
     color: black;
@@ -25,9 +31,6 @@ h1{
     font-family: 'Raleway', sans-serif;
     
 }
-
-
-
 .newyork {
     display: none;
     color: black;
@@ -36,36 +39,86 @@ h1{
     margin: 30px;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
-    
 }
 
-
-
 #circle1 {
-    height: 500px;
-    width: 500px;
+    width: 587px;
+    height: 525px;
+    position: absolute;
     background-color: darkgray;
     border-radius: 50%;
     display: inline-block;
     margin:50px;
     animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
 }
-
-
-
-
-
+#one{
+    width: 481px;
+    height: 451px;
+    margin:50px;
+    border-radius: 50%;
+    position: absolute;
+    background: #B68C8C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#two{
+    position: absolute;
+    width: 401px;
+    height: 333px;
+    margin:75px;
+    border-radius: 50%;
+    background: #798B7E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#three{
+    position: absolute;
+    width: 326px;
+    height: 248px;
+    margin:100px;
+    margin-left: 120px;
+    border-radius: 50%;
+    background: #9D9EB1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
 
 #circle2 {
-    background: palegreen; 
-    height: 500px;
-    width: 500px;
+    position: absolute;
+    width: 660px;
+    height: 610px;
+    left: 690px;
+    top: 134px;
+    background: #6ED992;
     border-radius: 50%;
     display: inline-block;
     float:right;
     margin:50px;
     animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
 }
+#four{
+    position: absolute;
+    width: 557px;
+    height: 539px;
+    margin:50px;
+    border-radius: 50%;
+    background: #B2B5A9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#five{
+    position: absolute;
+    width: 474px;
+    height: 453px;
+    margin:75px;
+    border-radius: 50%;
+    background: #8094A6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#six{
+    position: absolute;
+    width: 407px;
+    height: 397px;
+    margin:95px;
+    border-radius: 50%;
+    background: #D2D3A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
 @keyframes scaleIn {
   from {
