@@ -3,7 +3,7 @@ var humidity1;
 var humidity2;
 
 
-//Atlanta
+/////////////Atlanta////////////
 $(document).ready(function () {
 
     $.ajax({
@@ -24,34 +24,25 @@ $(document).ready(function () {
         $('#one').append('</br> '  + humidity1);
             
                 
-        $(".bottle1").css({"animation-duration": "1s",});
-        $(".cap1").css({"animation-duration": "1s",});
+        $(".peach").css({"animation-duration": "1s",});
+
         
         console.log(humidity1);
         
             if (humidity1 < 50) {
-      $('.bottle1').css({
+      $('.peach').css({
         "animation-duration": "6s"
       });
     }
-            if (humidity1 < 50) {
-      $('.cap1').css({
-        "animation-duration": "6s"
-      });
-    }
-              else if (humidity1 > 50) {
-      $('.bottle1').css({
+            else if (humidity1 > 50) {
+      $('.peach').css({
         "animation-duration": "1s"
       });
     }
-         else if (humidity1 > 50) {
-      $('.cap1').css({
-        "animation-duration": "1s"
-      });
-    }
+
        
         
-    }
+}
 });
         
         
@@ -77,23 +68,23 @@ $.ajax({
     function myWeatherInterpretation() {
         $('#two').append('</br> ' + humidity2);
         
-        $(".bottle2").css({"animation-duration": "1s",});
-        $(".cap2").css({"animation-duration": "1s",});
+        $(".apple").css({"animation-duration": "1s",});
+
         
         console.log(humidity2);
         
-            if (humidity2 = 50) {
-      $('.bottle2').css({
-        "animation-duration": "1s"
+            if (humidity2 < 50) {
+      $('.apple').css({
+        "animation-duration": "6s"
       });
     }
-            if (humidity2 = 50) {
-      $('.cap2').css({
+              else if (humidity2 > 50) {
+      $('.apple').css({
         "animation-duration": "1s"
       });
     }
 
-        
+
         
         
         
@@ -102,6 +93,7 @@ $.ajax({
         
     }
 });
+
 
 
 

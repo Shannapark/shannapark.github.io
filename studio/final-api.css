@@ -1,5 +1,5 @@
 body {
-    background-image: url("NIM-0008-WALP-WP-1_1024x1024.jpg");
+    background-image: url("blue-watercolor-wash-texture-5.jpg");
     font-family: sans-serif;
     font-family: 'Raleway', sans-serif;
     color: navy;
@@ -8,7 +8,7 @@ body {
 
 h1{
     text-align: center;
-    margin-top: 20px;
+    margin-left: 20px;
     font-size: 40px;
     
 }
@@ -16,6 +16,7 @@ h1{
 #one {
     display: inline-block;
     margin:50px;
+    left: 100px;
     color: black;
     text-align: center;
     font-size: 30px;
@@ -24,41 +25,17 @@ h1{
     
 }
 
-.bottle1{
-    background-color:peachpuff;
-    width:150px;
-    height:300px;
-    border-radius: 60px;
+.peach{
     position: absolute;
-    margin: 50px;
-    margin-left: 200px;
+    margin-left: 85px;
     animation: shake infinite cubic-bezier(.36,.07,.19,.97) both;
-    animation-duration: 5s;
     transform: translate3d(0, 0, 0);
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-    opacity: 0.9;
-}
-
-
-.cap1{
-    background-color:peachpuff;
-    width:60px;
-    height:70px;
-    border-radius: 20px;
-    top:250px;
-    left:53px;
-    position: absolute;
-    margin: 50px;
-    margin-left: 200px;
-    animation: shake infinite cubic-bezier(.36,.07,.19,.97) both;
     animation-duration: 5s;
-    transform: translate3d(0, 0, 0);
-    opacity: 0.9;
 }
 
 
 #two {
-     display: inline-block; 
+    display: inline-block; 
     float:right;
     margin:50px;
     color: black;
@@ -67,40 +44,18 @@ h1{
     font-family: 'Raleway', sans-serif;
 }
 
-.bottle2{
-    background:red;
+.apple{
     position: absolute;
-    width:150px;
-    height:300px;
-    border-radius: 60px;
-    margin: 50px;
-    margin-right: 200px;
-    right:63px;
-    animation: shake  infinite cubic-bezier(.36,.07,.19,.97) both;
+    margin-right: 50px;
+    right:60px;
+    animation: shake infinite cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
-    animation-duration: 5s;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-    opacity: 0.9;
+    animation-duration: 1s;
+
 }
 
-.cap2{
-    background:red;
-    position: absolute;
-    width:60px;
-    height:70px;
-    top:250px;
-    right:110px;
-    border-radius: 20px;
-    margin: 50px;
-    margin-right: 200px;
-    animation: shake  infinite cubic-bezier(.36,.07,.19,.97) both;
-    transform: translate3d(0, 0, 0);
-    animation-duration: 5s;
-    opacity: 0.9;
-    
-}
-.cap1:hover #one {
-  display: block;
+span:hover#one{
+    display:inline-block;
 }
 
 @keyframes shake {
