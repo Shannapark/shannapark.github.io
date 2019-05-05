@@ -14,7 +14,7 @@ h1{
 }
 
 #one {
-    display: inline-block;
+    display: none;
     margin:50px;
     left: 100px;
     color: black;
@@ -35,7 +35,7 @@ h1{
 
 
 #two {
-    display: inline-block; 
+    display: none; 
     float:right;
     margin:50px;
     color: black;
@@ -53,9 +53,11 @@ h1{
     animation-duration: 1s;
 
 }
-
-span:hover#one{
-    display:inline-block;
+.peach:hover #one{
+    display:block;
+}
+.apple:hover #two{
+    display:block;
 }
 
 @keyframes shake {
